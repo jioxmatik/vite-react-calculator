@@ -1,5 +1,5 @@
 import { FC, ReactNode } from "react";
-import css from './calculator.module.scss'
+import css from '../calculator.module.scss'
 
 interface GridProps {
     children: ReactNode;

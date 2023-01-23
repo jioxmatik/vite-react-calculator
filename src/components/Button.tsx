@@ -1,5 +1,5 @@
 import { ButtonHTMLAttributes, FC } from 'react' 
-import css from './calculator.module.scss';
+import css from '../calculator.module.scss';
 
 type ButtonProps = ButtonHTMLAttributes<HTMLButtonElement>
 

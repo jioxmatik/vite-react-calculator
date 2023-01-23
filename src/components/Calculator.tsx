@@ -1,8 +1,8 @@
-import { FC } from "react"
 import Result from "./Result"
 import Grid from "./Grid"
 import Button from "./Button";
-import { GRID_SCHEMA, useCalculator } from "./useCalculator";
+import { useCalculator } from "../useCalculator";
+import { GRID_SCHEMA } from "../constants";
 
 function Calculator() {
     const [value, setAction] = useCalculator();
